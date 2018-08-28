@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-lxjg-base",
+  "version": "0.0.1",
+  "description": "Laixue Group eslint code style config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.laixuejigou.com:2212/laixuejigou/eslint-config-lxjg-base.git"
+  },
+  "keywords": [
+    "eslint",
+    "laixuejigou"
+  ],
+  "author": "Laixue Group",
+  "license": "MIT"
+}
