@@ -41,7 +41,7 @@ module.exports = {
     'dot-notation': ['error', {allowKeywords: false}],
 
     // 使用===或!==进行比较
-    eqeqeq： ['error', 'always'],
+    eqeqeq: ['error', 'always'],
 
     // for循环变量变化方向检查
     'for-direction': ['error'],
@@ -139,7 +139,7 @@ module.exports = {
     'no-duplicate-case': ['error'],
 
     // 禁止重复的import
-    'no-duplicate-imports': ['error'， {includeExports: true}],
+    'no-duplicate-imports': ['error', {includeExports: true}],
 
     // 多个判断条件中，最后一个条件可以省略
     'no-else-return': ['error', {allowElseIf: false}],
@@ -268,9 +268,6 @@ module.exports = {
     // 禁用obj.hasOwnProperty，obj.isPrototypeOf，obj.propertyIsEnumerable
     'no-prototype-builtins': ['error'],
 
-    // 禁止使用保留关键字作为属性
-    'no-reserved-keys': ['error'],
-
     // 禁止在return语句中赋值
     'no-return-assign': ['error', 'always'],
 
@@ -318,6 +315,9 @@ module.exports = {
 
     // 禁止无意义的return
     'no-useless-return': ['error'],
+
+    // 禁止使用保留关键字作为属性
+    'quote-props': ['error', 'as-needed'],
 
     // 分号必须放在语句的末尾
     'semi-style': ['error', 'last'],

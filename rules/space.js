@@ -70,9 +70,6 @@ module.exports = {
     // 分号两边不能有空格
     'semi-spacing': ['error', {before: false, after: false}],
 
-    // 方法名在定义的时候后面不要有空格
-    'space-after-function-name': ['error', 'never'],
-
     // 代码块之前要有空格
     'space-before-blocks': ['error', 'always'],
 
@@ -89,7 +86,7 @@ module.exports = {
     'space-in-parens': ['error', 'never'],
 
     // 运算符两边要有空格
-    'space-infix-ops': ['error', 'always'],
+    'space-infix-ops': ['error', {int32Hint: false}],
 
     // 注释符后面要有空格
     'spaced-comment': ['error', 'always'],

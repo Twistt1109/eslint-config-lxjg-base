@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-lxjg-base",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Laixue Group eslint code style config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ./test/index.js"
   },
   "repository": {
     "type": "git",
@@ -12,8 +12,16 @@
   },
   "keywords": [
     "eslint",
-    "laixuejigou"
+    "laixuejigou",
+    "lxjg",
+    "lxjg-base",
+    "javascript",
+    "code-style"
   ],
   "author": "Laixue Group",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.4.0"
+  }
 }
