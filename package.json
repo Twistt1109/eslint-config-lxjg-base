@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lxjg-base",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Laixue Group eslint code style config",
   "main": "index.js",
   "scripts": {
