@@ -1,4 +1,8 @@
 module.exports = {
+  env: {
+    node: true
+  },
+  
   rules: {
     // 不能只有setter没有getter
     // 可以只有getter
@@ -8,7 +12,7 @@ module.exports = {
     'array-callback-return': ['error', {allowImplicit: true}],
 
     // 数组元素的换行要保持一致
-    'array-element-newline': ['error', 'consistent'],
+    //'array-element-newline': ['error', 'consistent'],
 
     // 在多行数组、对象、import、export中结尾要添加逗号
     'comma-dangle': ['error', {
@@ -74,12 +78,12 @@ module.exports = {
     'max-len': ['error', {code: 80, tabWidth: 2}],
 
     // 单个方法体代码最多20行
-    'max-lines-per-function': ['error', {
-      max: 20,
-      skipBlankLines: true,
-      skipComments: true,
-      IIFEs: false,
-    }],
+    // 'max-lines-per-function': ['error', {
+    //   max: 20,
+    //   skipBlankLines: true,
+    //   skipComments: true,
+    //   IIFEs: false,
+    // }],
 
     // 方法内函数回调，最大只能有3行
     'max-nested-callbacks': ['error', {max: 3}],
@@ -113,9 +117,6 @@ module.exports = {
 
     // 如果箭头函数体会引起歧义，最好用()括起来
     'no-confusing-arrow': ['error', {allowParens: true}],
-
-    // 仅允许使用console的warn和error方法
-    'no-console': ['error', {allow: ['warn', 'error']}],
 
     // 禁用continue
     'no-continue': ['error'],
@@ -214,7 +215,7 @@ module.exports = {
     'no-loop-func': ['error'],
 
     // 禁止易混淆的字符
-    'no-misleading-character-class': ['error'],
+    //'no-misleading-character-class': ['error'],
 
     // 禁止混用运算符，最好用()包起来
     'no-mixed-operators': ['error'],

@@ -38,17 +38,13 @@ module.exports = {
     // 禁止将变量初始化为undefined
     'no-undef-init': ['error'],
 
-    // 禁止直接使用未声明的变量
-    // 对于全局变量，需要在/*global*/中声明
-    'no-undef': ['error'],
-
-    // 禁止声明变量而不使用
-    'no-unused-vars': ['error'],
-
     // 禁止在声明前使用变量
     'no-use-before-define': ['error'],
 
     // 使用isNaN判断数字类型的值
     'use-isnan': ['error'],
+
+    // 禁用console规则
+    'no-console': ["error", { allow: ["warn", "error"] }],
   },
 };

@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
     // 使用驼峰式命名方式
-    'camelcase': ['error', {properties: 'always', ignoreDestructuring: true}],
+    'camelcase': ['error', { properties: 'always' }],
 
     // 命名黑名单
     'id-blacklist': ['error', 'e', 'err', 'cb', 'obj'],
